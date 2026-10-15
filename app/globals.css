@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+body {
+  font-family: "Pretendard", "Apple SD Gothic Neo", "Malgun Gothic", system-ui, sans-serif;
+  background: #f8fafc;
+  color: #0f172a;
+}
+
+/* 폼 입력칸 공통 모양 */
+.input {
+  width: 100%;
+  border: 1px solid #cbd5e1;
+  border-radius: 0.5rem;
+  padding: 0.6rem 0.8rem;
+  background: white;
+}
+.input:focus {
+  outline: 2px solid #6366f1;
+  outline-offset: 1px;
+}
+.label {
+  display: block;
+  margin-bottom: 0.35rem;
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: #334155;
+}
