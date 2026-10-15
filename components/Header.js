@@ -10,7 +10,7 @@ export default async function Header() {
     <header className="sticky top-0 z-10 border-b border-slate-200 bg-white/90 backdrop-blur">
       <nav className="mx-auto flex h-16 max-w-6xl items-center gap-6 px-4">
         <Link href="/" className="text-xl font-extrabold tracking-tight text-indigo-700">
-          NEXT<span className="text-amber-500">CLASS</span>
+          SMART<span className="text-amber-500">CLASS</span>
         </Link>
 
         <div className="flex gap-4 text-sm font-medium text-slate-600">

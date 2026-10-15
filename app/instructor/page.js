@@ -3,7 +3,7 @@ import Link from 'next/link'
 import { createClient } from '@/lib/supabase/server'
 import { getProfile } from '@/lib/auth'
 
-export const metadata = { title: '강사 센터 — NEXTCLASS' }
+export const metadata = { title: '강사 센터 — SmartClass' }
 
 export default async function InstructorPage() {
   const profile = await getProfile()

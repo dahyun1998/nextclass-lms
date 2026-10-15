@@ -165,7 +165,7 @@ export default async function CoursePage({ params }) {
 
      {/* 오른쪽 수강 상자 */}
       <aside className="h-fit space-y-4 rounded-xl border border-slate-200 bg-white p-6 lg:sticky lg:top-24">
-        <p className="text-sm text-slate-500">강사 · {course.profiles?.name || 'NEXTCLASS'}</p>
+        <p className="text-sm text-slate-500">강사 · {course.profiles?.name || 'SmartClass'}</p>
 
         {enrolled ? (
           <>

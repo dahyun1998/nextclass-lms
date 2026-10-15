@@ -3,7 +3,7 @@ import { createCourse } from '../actions'
 import { CATEGORIES, LEVELS } from '@/lib/utils'
 import SubmitButton from '@/components/SubmitButton'
 
-export const metadata = { title: '새 강좌 — NEXTCLASS' }
+export const metadata = { title: '새 강좌 — SmartClass' }
 
 export default function NewCoursePage() {
   return (

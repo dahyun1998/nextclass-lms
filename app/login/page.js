@@ -2,7 +2,7 @@
 import { login, signup } from './actions'
 import SubmitButton from '@/components/SubmitButton'
 
-export const metadata = { title: '로그인 — NEXTCLASS' }
+export const metadata = { title: '로그인 — SmartClass' }
 
 export default async function LoginPage({ searchParams }) {
   const { message, next } = await searchParams

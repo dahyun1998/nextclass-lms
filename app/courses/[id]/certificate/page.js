@@ -89,7 +89,7 @@ export default async function CertificatePage({ params }) {
     <div className="mx-auto max-w-3xl py-12 px-4">
       {/* 수료증 본문 디자인 박스 */}
       <div className="relative rounded-3xl border-8 border-double border-amber-400 bg-white p-12 text-center shadow-xl space-y-8">
-        <div className="absolute top-6 left-6 text-xs font-semibold text-slate-400">NEXTCLASS LMS</div>
+        <div className="absolute top-6 left-6 text-xs font-semibold text-slate-400">SmartClass LMS</div>
         <div className="absolute top-6 right-6 text-xs font-semibold text-slate-400">CERTIFICATE</div>
 
         <div className="space-y-3 pt-6">
@@ -100,7 +100,7 @@ export default async function CertificatePage({ params }) {
         <div className="space-y-4 py-4">
           <p className="text-lg text-slate-700">성명 : <span className="font-bold text-slate-900 border-b-2 border-slate-300 pb-1 px-4">{profile?.name || '수강생'}</span></p>
           <p className="text-slate-600 leading-relaxed">
-            위 사람은 넥스트클래스(NEXTCLASS)에서 주관하는<br />
+            위 사람은 넥스트클래스(SmartClass)에서 주관하는<br />
             <strong className="text-xl text-indigo-700 font-bold">[{course.title}]</strong> 과정을 성실히 수료하였기에 이 증서를 수여합니다.
           </p>
         </div>
@@ -111,7 +111,7 @@ export default async function CertificatePage({ params }) {
             <p className="text-slate-500">{issueDate}</p>
           </div>
           <div className="text-right">
-            <p className="font-extrabold text-indigo-600 text-lg">NEXTCLASS 교육원장</p>
+            <p className="font-extrabold text-indigo-600 text-lg">SmartClass 교육원장</p>
           </div>
         </div>
       </div>

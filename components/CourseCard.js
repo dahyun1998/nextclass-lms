@@ -28,7 +28,7 @@ export default function CourseCard({ course, progress }) {
         <h3 className="font-bold text-slate-900 group-hover:text-indigo-700">{course.title}</h3>
         <p className="line-clamp-2 text-sm text-slate-600">{course.summary}</p>
         <div className="flex items-center justify-between text-xs text-slate-500">
-          <span>{course.profiles?.name || 'NEXTCLASS'} · 강의 {lessonCount}개</span>
+          <span>{course.profiles?.name || 'SmartClass'} · 강의 {lessonCount}개</span>
           {reviewCount > 0 && (
             <span className="font-medium text-slate-700">
               ⭐ {avgRating} ({reviewCount})
